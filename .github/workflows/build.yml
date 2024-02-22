@@ -4,3 +4,30 @@ jobs:
  build:
   runs-on: ubuntu-latest
   steps:
+   - run: echo "hello"
+ setup:
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "hello"
+ sast:
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "hello"
+ plan:
+  runs-on: ubuntu-latest
+  step:
+   - run: echo "hello"
+ apply:
+  runs-on: ubuntu-latest
+  step:
+   - run: echo "hello"
+ docker:
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "hello"
+ trivy:
+  runs-on: ubuntu-latest
+  steps:
+   
+  
+   
