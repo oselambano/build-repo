@@ -28,6 +28,7 @@ jobs:
  trivy:
   runs-on: ubuntu-latest
   steps:
+   - run
    
   
    
